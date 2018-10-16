@@ -1,0 +1,16 @@
+{
+    "name": "react-parcel",
+    "version": "1.0.0",
+    "description": "description",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "dependencies": {},
+    "devDependencies": {
+        "parcel-bundler": "^1.10.3"
+    }
+}
