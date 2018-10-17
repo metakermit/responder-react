@@ -10,10 +10,25 @@ npm install
 npm start # the app should now be available on http://localhost:1234/
 ```
 
-To build the app:
+To build the app and serve it from a Responder server:
+
+```shell
+pipenv install # due to some error, it might be necessary to do: pipenv install --skip-lock
+npm install
+rm -rf dist # clean the dist folder
+rm -rf static/* # clean the static folder
+npm run build
+cp -rf dist/ static/
+pipenv run python server.py # the app should now be available on http://localhost:5042/
+```
+
+To save keystrokes, you can just call `./build.sh` and open <http://localhost:5042/>.
+
+To build the app and test it with a static Python server (as a debug technique):
 
 ```shell
 npm install
+rm -rf dist # clean the dist folder
 npm run build
 cd dist
 python3 -m http.server # the app should now be available on http://localhost:8000/
