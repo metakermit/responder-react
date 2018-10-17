@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import imageURL from '../responder.jpg';
+import imageURL from '../img/responder.jpg';
 
 class ShoppingList extends React.Component {
   render() {

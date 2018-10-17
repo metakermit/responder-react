@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import ShoppingList from './ShoppingList';
-import About from './About';
+import ShoppingList from './components/ShoppingList';
+import About from './components/About';
 
 ReactDOM.render(
   <Router>
