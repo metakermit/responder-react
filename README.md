@@ -22,7 +22,15 @@ cp -rf dist/ static/
 pipenv run python server.py # the app should now be available on http://localhost:5042/
 ```
 
-To save keystrokes, you can just call `./build.sh` and open <http://localhost:5042/>.
+To save keystrokes:
+
+```shell
+pipenv install # due to some error, it might be necessary to do: pipenv install --skip-lock
+npm install
+./build.sh
+```
+
+Then just open <http://localhost:5042/>.
 
 To build the app and test it with a static Python server (as a debug technique):
 

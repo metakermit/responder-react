@@ -15,6 +15,7 @@ class ShoppingList extends React.Component {
           <li>ASGI</li>
         </ul>
         <p><Link to="/about">About</Link></p>
+        <p><a href="/admin">Admin</a></p>
       </div>
     );
   }
