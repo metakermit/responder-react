@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "parcel app/index.html",
-        "build": "parcel build app/index.html"
+        "build": "parcel build app/index.html --public-url static/"
     },
     "keywords": [],
     "author": "",
