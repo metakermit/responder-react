@@ -1,6 +1,17 @@
 # Responder React
 
-*Scaffolding for using [Responder][] with [React][] and frontend routing.*
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/metakermit/responder-react/master/LICENSE) [![Updates](https://pyup.io/repos/github/metakermit/responder-react/shield.svg)](https://pyup.io/repos/github/metakermit/responder-react/)
+
+The awesome new [Responder][] web framework includes great support for serving
+static files, so this project shows how easy it is to integrate a [React][]
+single page app.
+
+## Features
+
+- 🍪 quick start – create your own project in less than a minute using [cookiecutter][]
+- 🔨 modern JS tooling – a seamless workflow using [Parcel][]
+- 🔀 frontend routing – using [React Router][] you can elegantly serve different React components on different urls
+- 📻 server routing – trusted old server-side routing still works, so go ahead & build the admin interface without any JS
 
 ## Usage
 
@@ -35,5 +46,6 @@ To demonstrate how the app should work, it consists of two pages:
 
 [Responder]: http://python-responder.org/
 [React]: https://reactjs.org/
+[Parcel]: https://parceljs.org/
 [React Router]: https://reacttraining.com/react-router/
 [cookiecutter]: https://cookiecutter.readthedocs.io
