@@ -1,44 +1,28 @@
 # Responder React
 
-Here's a very simple repo to demonstrate how to use Responder with a React app
-that uses frontend routing.
+*Scaffolding for using [Responder][] with [React][] and frontend routing.*
 
-To get the app running in development mode:
+## Usage
 
-```shell
-npm install
-npm start # the app should now be available on http://localhost:1234/
-```
-
-To build the app and serve it from a Responder server:
+You can quickly reuse the scaffolding for your own project using [cookiecutter][]:
 
 ```shell
-pipenv install # due to some error, it might be necessary to do: pipenv install --skip-lock
-npm install
-npm run build
-pipenv run python server.py # the app should now be available on http://localhost:5042/
+pip install -U cookiecutter
+cookiecutter gh:metakermit/responder-react
 ```
 
-To save keystrokes:
+You will find further instructions in the projects README.md, but in short all
+you do is:
 
 ```shell
 pipenv install # due to some error, it might be necessary to do: pipenv install --skip-lock
 npm install
-./build.sh
+pipenv run responder build
+pipenv run python server.py
 ```
 
-Then just open <http://localhost:5042/>.
-
-To build the app and test it with a static Python server (as a debug technique):
-
-```shell
-npm install
-rm -rf dist # clean the dist folder
-npm run build
-cd dist
-python3 -m http.server # the app should now be available on http://localhost:8000/
-```
-
+And you'll have your Responder server serving the React app on <http://localhost:5042/>.
+[React Router][] is used for the frontend routing.
 To demonstrate how the app should work, it consists of two pages:
 
 - ShoppingList running on `/`
@@ -48,3 +32,8 @@ To demonstrate how the app should work, it consists of two pages:
 - About running on `/about`
 
 ![page 2](docs/page2.png)
+
+[Responder]: http://python-responder.org/
+[React]: https://reactjs.org/
+[React Router]: https://reacttraining.com/react-router/
+[cookiecutter]: https://cookiecutter.readthedocs.io

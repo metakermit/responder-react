@@ -1,4 +1,6 @@
+##################
 ## Node.gitignore
+##################
 
 # Logs
 logs
@@ -75,8 +77,9 @@ typings/
 .serverless
 
 
-
+####################
 ## Python.gitignore
+####################
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -191,7 +194,8 @@ venv.bak/
 dmypy.json
 
 
-
+##########
 ## Custom
+##########
 
 static/

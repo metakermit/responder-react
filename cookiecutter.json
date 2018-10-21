@@ -1,0 +1,7 @@
+{
+    "project": "helloresponderreact",
+    "_copy_without_render": [
+        "*app",
+        "*templates"
+    ]
+}
