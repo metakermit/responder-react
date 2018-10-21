@@ -3,4 +3,4 @@
 
 schedule: every month
 requirements:
-  - {{cookiecutter.project}}/Pipfile
+  - "{{cookiecutter.project}}/Pipfile"
