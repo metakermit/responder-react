@@ -29,7 +29,7 @@ you do is:
 pipenv install # due to some error, it might be necessary to do: pipenv install --skip-lock
 npm install
 pipenv run responder build
-pipenv run python server.py
+pipenv run python api.py
 ```
 
 And you'll have your Responder server serving the React app on <http://localhost:5042/>.
