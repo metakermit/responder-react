@@ -4,10 +4,10 @@
   "keywords": ["Python", "Responder", "REST", "API", "React", "SPA"],
   "buildpacks": [
     {
-      "url": "heroku/node"
+      "url": "heroku/nodejs"
     },
     {
-      "url": "heroku/ruby"
+      "url": "heroku/python"
     }
   ]
 }

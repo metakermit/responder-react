@@ -23,6 +23,6 @@ Then just open: <http://localhost:5042/> & start working on your new app! 🚀
 
 ## Deploy
 
-When you're ready to deploy, it's easy. You can deploy to Heroku;
+When you're ready to deploy, it's easy. You can deploy to Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
