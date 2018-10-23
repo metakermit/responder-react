@@ -8,7 +8,8 @@ single page app.
 
 ## Features
 
-- 🍪 quick start – create your own project in less than a minute using [cookiecutter][]
+- 🍪 quick start – create your own project in less than a minute using [cookiecutter][] (example [repo](https://github.com/metakermit/helloresponderreact) & [website](https://responder-react.herokuapp.com/))
+- 🚀 quick to launch – use a "Deploy to Heroku" button in the generated _README.md_ (looks like [this](https://github.com/metakermit/helloresponderreact#deploy)) – it's magic ✨ (actually [multiple buildpacks](https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app) & a [custom build step](https://devcenter.heroku.com/articles/nodejs-support#heroku-specific-build-steps))
 - 🔨 modern JS tooling – a seamless workflow using [Parcel][]
 - 🔀 frontend routing – using [React Router][] you can elegantly serve different React components on different urls
 - 📻 server routing – trusted old server-side routing still works, so go ahead & build the admin interface without any JS
@@ -44,8 +45,8 @@ To demonstrate how the app should work, it consists of two pages:
 
 ![page 2](docs/page2.png)
 
-[Responder]: http://python-responder.org/
-[React]: https://reactjs.org/
-[Parcel]: https://parceljs.org/
-[React Router]: https://reacttraining.com/react-router/
+[responder]: http://python-responder.org/
+[react]: https://reactjs.org/
+[parcel]: https://parceljs.org/
+[react router]: https://reacttraining.com/react-router/
 [cookiecutter]: https://cookiecutter.readthedocs.io
