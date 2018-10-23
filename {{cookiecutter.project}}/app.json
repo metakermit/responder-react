@@ -9,5 +9,9 @@
     {
       "url": "heroku/python"
     }
-  ]
+  ],
+  "scripts": {
+    "heroku-postbuild":
+      "npm install --only=dev --no-shrinkwrap && npm run build"
+  }
 }
