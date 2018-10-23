@@ -1,22 +1,23 @@
 {
-    "name": "react-parcel",
-    "version": "1.0.0",
-    "private": true,
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "parcel app/index.html",
-        "build": "parcel build app/index.html --public-url static/ --out-dir static"
-    },
-    "keywords": [],
-    "author": "",
-    "dependencies": {
-        "react": "^16.5.2",
-        "react-dom": "^16.5.2",
-        "react-router-dom": "^4.3.1"
-    },
-    "devDependencies": {
-        "parcel-bundler": "^1.10.3",
-        "parcel-plugin-clean-dist": "0.0.6"
-    }
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel app/index.html",
+    "build": "parcel build app/index.html --public-url static/ --out-dir static",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-clean-dist": "0.0.6"
+  }
 }
