@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pipenv run responder build
+pipenv run python server/api.py

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: {{cookiecutter.project}}
+    restart: on-failure
+    command: /bin/bash -c 'responder build; python3 server/api.py'
+    volumes:
+      - ./app:/app/app
+      - ./server:/app/server
+      - ./templates:/app/templates
+    ports:
+      - "5042:5042"
