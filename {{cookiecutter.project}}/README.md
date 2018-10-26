@@ -3,21 +3,16 @@
 Here's a very simple repo to demonstrate how to use Responder with a React app
 that uses frontend routing.
 
-To get the app running in development mode:
-
-```shell
-npm install
-npm start # the app should now be available on http://localhost:1234/
-```
-
-To build the app and serve it from a Responder server:
+To build the app on your computer and serve it from a Responder server:
 
 ```shell
 bin/install
 bin/start
 ```
 
-of if you prefer to use Docker:
+Optionally to get just the frontend running in development mode, `npm start` will bring the frontend up on <http://localhost:1234/>.
+
+Alternatively, if you prefer to use Docker:
 
 ```shell
 docker-compose up
@@ -31,7 +26,7 @@ When you're ready to deploy, it's easy. You can deploy to Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-You can also deploy on your own using Docker.
+If you prefer to deploy the app on your own server, you can easily start it using Docker:
 
 ```shell
 docker build -t {{cookiecutter.project}} .

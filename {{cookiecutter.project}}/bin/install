@@ -1,5 +1,4 @@
 #!/bin/bash
 
 pipenv install
-pipenv lock --pre # necessary because a prerelease version of apispec is used
 npm install

@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-responder = {editable = true, git = "https://github.com/kennethreitz/responder.git"}
+responder = "*"
 
 [dev-packages]
-ipdb = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
