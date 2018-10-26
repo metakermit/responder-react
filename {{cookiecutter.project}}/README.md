@@ -19,7 +19,7 @@ bin/start
 
 of if you prefer to use Docker:
 
-````shell
+```shell
 docker-compose up
 ```
 
@@ -36,4 +36,4 @@ You can also deploy on your own using Docker.
 ```shell
 docker build -t {{cookiecutter.project}} .
 docker run -it -p 0.0.0.0:5042:5042 {{cookiecutter.project}}
-````
+```
